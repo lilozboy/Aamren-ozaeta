@@ -1,0 +1,34 @@
+import time
+#The War Life
+#People that are in War
+print "The War Life"
+time.sleep(2)
+print "By: Jose and Aamren"
+time.sleep(2)
+print"Narrator:"
+print "In this story it involves 2 people that are stuck in a war and where not in the same team the U.S.A and china the American is named jack and the chines is named hope. Jack is 23 and hope is age 22 the war is ending and jack and hope are pilots and CRASHED wings and ended up falling on an island. the ending will be your decision"
+time.sleep(4)
+print "You will be able to choose who you want to play as Jack or Hope."
+time.sleep(2)
+print "This is jakes story he was raised in a poor and a bad neighborhood and had a bad life intel he went in the war he made friends and meet good people but he didn’t kept in touch because a loots of his friends died he was one of the best fighting pilots he had to go to war he had nothing to lose."
+time.sleep(3)
+print "This is hope she a china and Japanese had a bad life as will her step father never liked her because he was from a other dad her mother hated her because she was reaped and her parents lived in a big house and had money but hope didn’t get anything when she was 18 she left and went to the army and was the best pilot and was called to fight."
+print "Would you like to play as Jack or Hope."
+print "Type j for jack and h for Hope."
+answer = raw_input()
+if answer == "j":
+    print "Jack: I see the enemy I'm trying to shoot down, that person is very hard to track down. 1 Do I go and try to kill them or 2 Go and find someone else."
+else:
+    print "Hope: The american pilot has spotted me. I'm using the sun as my advantage. He is very fast and very hard to kill. 3 Do I pursue or 4 Do I avoid him." 
+    
+answer = raw_input()
+if answer == "1":
+  print "Jack: I will go and kill the good pilot."
+else:
+  print "Jack: I will run and fight someone else."
+  
+  answer = raw_input()
+  if answer == "3":
+    print "Hope: The American is very fast, hard to hit and also I am close to colliding with the American."
+  else:
+    print "Hope: I have avoided the American and I took down two other American pilots." 
